@@ -1,0 +1,47 @@
+{
+    "shopping_cart": {
+      "$id": "#/properties/shopping_cart",
+      "type": "integer"
+    },
+    "sku": {
+      "$id": "#/properties/sku",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/sku/items",
+        "type": "string",
+        "pattern": "^(.*)$"
+      }
+    },
+    "color": {
+      "$id": "#/properties/color",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/color/items",
+        "type": "string",
+        "pattern": "^(.*)$"
+      }
+    },
+    "size": {
+      "$id": "#/properties/size",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/size/items",
+        "type": "string",
+        "pattern": "^(.*)$"
+      }
+    },
+    "price": {
+      "$id": "#/properties/price",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/price/items",
+        "type": "string",
+        "pattern": "^(.*)$"
+      }
+    },
+    "total_shipping": {
+      "$id": "#/properties/total_shipping",
+      "type": "string",
+      "pattern": "^(.*)$"
+    }
+}

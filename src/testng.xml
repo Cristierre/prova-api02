@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Shopping Cart Test">
+        <parameter name="baseUrl" value="http://5d9cc58566d00400145c9ed4.mockapi.io"></parameter>
+        <parameter name="characterEP" value="shopping_cart"></parameter>
+        <classes>
+            <class name="testcases.GETShoppingCart">
+                <methods>
+                    <include name="getShoppingCart"></include>
+                    <include name="getShoppingCartById"></include>
+                    <include name="setLogger"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
